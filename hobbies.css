@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(-135deg, #63b2e7, #a15bbd);
+  
+    color: hsla(0, 0%, 100%, 0.966);
+}
+
+.hob_container{
+display: grid;
+grid-template-columns: 1fr 0.75fr;
+grid-template-areas:"para pho"
+                    "paragra phot"
+                    "paragrph photo";
+grid-template-rows: auto;
+
+}             
+
+#image1,#image2, #image3{
+    clip-path: circle();
+    border-radius: 10%;
+
+}
+#image1
+{
+    grid-area: pho;
+    
+}
+#image2{
+grid-area: phot;
+}
+#image3{
+grid-area: photo;
+}
+
+#paragraph1{
+    grid-area: para;
+}
+#paragraph2{
+    grid-area: paragra;
+
+}
+#paragraph3{
+    grid-area: paragraph;
+
+}
+
+

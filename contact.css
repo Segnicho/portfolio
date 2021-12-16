@@ -1,0 +1,126 @@
+*{
+    margin: 0 0;
+}
+.navList a{
+    background: #a15bbd;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  #submit{
+      background-color:rgb(10, 10, 228);
+      color: white;
+  }
+  
+  .contact_container{
+      z-index: 1;
+      margin: -1rem -2rem -2rem -2em;
+      background: linear-gradient(-135deg, #63b2e7, #a15bbd);
+      /* background-color: #091e41; */
+      /* background-color:  #242843; */
+      color: hsla(0, 0%, 100%, 0.966);
+        padding: 3% 7%;
+        display: inline-grid;
+        grid-gap: 1em;
+        grid-template-columns: 0.4fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+                        "paragraph paragraph"
+                        "socialMedia form";
+
+  }
+  
+  
+  
+  p{
+    line-height: normal;
+    grid-area: paragraph;
+    /* background-color: #091e41; */
+   /* color:  #ff47da; */
+    color: hsla(0, 0%, 100%, 0.966);
+
+      text-transform: uppercase;
+  }
+p > span{
+    color: red;
+    text-transform: uppercase;
+}
+.socialMedia{
+    grid-area: socialMedia;
+}
+.form{
+    grid-area: form;
+}
+form input{
+    height: fit-content;
+    width: 15rem;
+}
+
+.home_footer{
+
+
+    background-color: rgb(43, 39, 34);
+
+    
+}
+.footer_list{
+    
+    /* background-color: black; */
+        color: whitesmoke;
+        font-size: larger;
+        border-radius: 10%;
+        list-style: none;    
+    }
+.footerList{
+   
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+#top{
+    background-color: blue;
+    margin: 20px 10px 20px 50px;
+    margin-left: 50px;
+}
+footer ul li a{
+    margin-top: 5rem;
+}
+
+#next{
+    margin-top: 50px ;
+    background-color: blue;
+    margin-left: 50px;
+}
+@media (min-width:1280px){
+    .contact_container{
+        /* border-top-color: #007bb5; */
+        margin: -3.1rem -1rem -1rem -2rem;
+    }
+}
